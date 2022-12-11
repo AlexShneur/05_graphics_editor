@@ -7,7 +7,7 @@ project(print_ip VERSION ${PROJECT_VERSION})
 
 add_executable(graphics_editor main.cpp Document.h Primitive.h Redactor_MVC.h)
 
-set_target_properties(print_ip PROPERTIES
+set_target_properties(graphics_editor PROPERTIES
     CXX_STANDARD 14
     CXX_STANDARD_REQUIRED ON
 )
