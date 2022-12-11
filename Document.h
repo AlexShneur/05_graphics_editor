@@ -2,6 +2,7 @@
 #include "Primitive.h"
 #include <memory>
 #include <vector>
+#include <algorithm>
 
 enum class DocumentState
 {
