@@ -5,6 +5,8 @@ set(PROJECT_VERSION 0.0.${PATCH_VERSION})
 
 project(graphics_editor VERSION ${PROJECT_VERSION})
 
+configure_file(version.h.in version.h)
+
 add_executable(graphics_editor main.cpp Document.h Primitive.h Redactor_MVC.h)
 
 set_target_properties(graphics_editor PROPERTIES
